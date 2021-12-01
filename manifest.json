@@ -1,0 +1,10 @@
+{
+    "name": "DevOps PR branch copy",
+    "description": "Copy the branch name of a Pull Request in Azure DevOps.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://dev.azure.com/*"]
+    }]
+  }
